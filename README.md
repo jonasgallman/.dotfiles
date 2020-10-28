@@ -11,6 +11,7 @@ Current setup:
 * Gnome
 * Neovim
 * [zsh](https://thevaluable.dev/zsh-install-configure/)
+* git / [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
 
 ## A gentle warning
 

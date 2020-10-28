@@ -1,0 +1,12 @@
+# global gitignore
+.ignore
+dumps/
+
+# Docker
+docker-compose.override.yml
+
+# Devdash config for each projects
+.devdash
+
+# lsp files
+.lsp
