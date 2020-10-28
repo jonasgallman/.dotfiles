@@ -146,7 +146,7 @@ cnoremap w!! execute ':w suda://%'
 " colorscheme
 "colorscheme hypnos
 autocmd vimenter * colorscheme gruvbox
-set background=light
+set background=dark
 
 " no swap file
 set noswapfile
