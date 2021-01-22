@@ -105,3 +105,8 @@ source $DOTFILES/zsh/plugins/completion.zsh
 source $DOTFILES/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/jonas/.sdkman"
+[[ -s "/home/jonas/.sdkman/bin/sdkman-init.sh" ]] && source "/home/jonas/.sdkman/bin/sdkman-init.sh"
