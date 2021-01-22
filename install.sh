@@ -35,4 +35,5 @@ fi
 . $DOTFILES/install/install-zsh.sh
 
 dot_is_installed nvim && dot_install nvim
-dot_is_installed go && dot_install go
+dot_is_installed go && dot_install_func go install_go_binaries
+dot_is_installed git && dot_install git
